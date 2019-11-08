@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<head>
+    <title>Arduiknow - Admin</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/admin.css">
+</head>
+<body>
+    <div id="root">
+        <div id="header">
+            <h1>Arduiknow - Contact Us</h1>
+            <div id="navbar">
+                <a href="projects.html" class="button button-a">Projects</a>
+                <a href="shop.html" class="button button-a">Shop</a>
+                <a href="contact.html" class="button button-a">Contact Us</a>
+            </div>
+        </div>
+        <div id="content">
+            <p>Here are all the comments for you to view.</p>
+            <button type="button" v-on:click="resolveComment(-1)" class="button button-a">Resolve All</button>
+            <div v-for="comment in comments" class="listofcomments">
+                <p>Comment: {{comment.comment}}</p>
+                <p><i>Name: {{comment.name}}</i></p>
+                <button type="button" v-on:click="resolveComment(comment.number)" class="button button-a">Resolve</button>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/rm13082016/creativeProjectNode" class="button button-a">URL to Github</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script type="text/javascript" src="../scripts/admin.js"></script>
+</body>

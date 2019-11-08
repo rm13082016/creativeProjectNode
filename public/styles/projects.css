@@ -1,0 +1,43 @@
+h1 {
+    font: bold calc(20px + 2vw);
+}
+li:hover {
+    cursor: pointer;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-align: left;
+    font: calc(11px + 1vw);
+    color: white;
+}
+
+#project {
+    width: 100%;
+}
+
+#suggest {
+    float: right;
+    text-align: right;
+    background-color: #8499A5;
+}
+
+#suggest ul {
+    text-align: left;
+}
+
+#sidebar {
+    flex-direction: column;
+    background-color: #8499A5;
+    min-width: 20%;
+}
+
+#sidebar ul {
+    list-style-type: square;
+}
+
+#project {
+    flex-direction: column;
+}

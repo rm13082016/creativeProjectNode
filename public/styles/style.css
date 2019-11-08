@@ -1,0 +1,58 @@
+body {
+    background-color: #283044;
+    font: Arial;
+    padding: 10px;
+    margin: 10px;
+}
+ul {
+  list-style-type: none;
+  padding: 10px;
+  margin: 10px;
+}
+
+/* IDs */
+#header {
+    width: 100%;
+    background-color: #283044;
+    color: white;
+}
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font: bold calc(20px + 3vw);
+    color: white;
+    background-color: #78A1BB;
+    width: 100%;
+}
+#footer {
+    display: flex;
+    justify-content: center;
+    background-color: #283044;
+}
+
+/* Classes */
+.button {
+  font: calc(11px + 2vw);
+  text-decoration: none;
+  padding: 2px 6px 2px 6px;
+  border-top: 1px solid #CCCCCC;
+  border-right: 1px solid #333333;
+  border-bottom: 1px solid #333333;
+  border-left: 1px solid #CCCCCC;
+}
+
+.button-a {
+  background-color: #EBF5EE;
+  color: #78A1BB;
+}
+
+.button-b {
+  background-color: #78A1BB;
+  color: #EBF5EE;
+}

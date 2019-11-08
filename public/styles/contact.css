@@ -1,0 +1,23 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #78A1BB;
+    
+}
+
+#form {
+    margin: auto;
+    min-width: 200px;
+    width: 40%;
+    text-align: left;
+    background-color: #EBF5EE;
+}
+
+#form p {
+    text-align: center;
+}
+
+#form textarea {
+    width: 95%;
+}

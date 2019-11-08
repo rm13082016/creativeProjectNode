@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <title>Arduiknow - Projects</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../styles/projects.css">
+</head>
+<body>
+    <div id="root">
+        <div id="header">
+            <h1>Arduiknow - Projects</h1>
+            <div id="navbar">
+                <a href="shop.html" class="button button-a">Shop</a>
+                <a href="contact.html" class="button button-a">Contact Us</a>
+                <a href="admin.html" class="button button-b">Admin</a>
+            </div>
+        </div>
+        <div id="content">
+            <div id="sidebar">
+                <p>List of all projects:</p>
+                <ul>
+                    <li v-for="item in list" v-on:click="loadProject(item.id)">{{item.title}}</li>
+                </ul>
+            </div>
+            <div id="project">
+                <div id="suggest">
+                    <label>Search Projects: </label><input type="text" v-on:keyup="searchProject()" v-model="prefix"/>
+                    <ul>
+                       <li v-for="suggestion in suggestions" v-on:click="loadProject(suggestion.id)">{{suggestion.title}}</li>
+                    </ul>
+                </div>
+                <p>{{title}}</p>
+                <p>{{difficulty}}</p>
+                <p>{{desc}}</p>
+                <img v-bind:src="picture" style="width: 75%"/> 
+                <p>{{instructions}}</p>
+            </div>
+        </div>
+        <div id="footer">
+            <a href="https://github.com/rm13082016/creativeProjectNode" class="button button-a">URL to Github</a>
+        </div>
+    </div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.2/dist/vue.js"></script>
+    <script type="text/javascript" src="../scripts/projects.js"></script>
+</body>

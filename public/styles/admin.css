@@ -1,0 +1,15 @@
+#content {
+    display: flex;
+    flex-direction: column;
+}
+
+.listofcomments {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border-top: solid;
+}
+
+.button-a {
+    max-width: 30%;
+}

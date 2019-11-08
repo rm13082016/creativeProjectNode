@@ -1,0 +1,37 @@
+[
+	{
+		"id": "1",
+		"title": "Arduino Radar",
+		"desc": " The radar can detect objects in front of it and map them on PC screen using the Processing IDE.",
+		"imageurl": "https://howtomechatronics.com/wp-content/uploads/2015/07/Arduino-Radar04.jpg",
+		"difficulty": "Intermediate"
+	},
+	{
+		"id": "2",
+		"title": "Range Measurer and Digital Spirit Level",
+		"desc": "We will use it to make an distance meter which can measure distances up to 4 meters.",
+		"imageurl": "https://howtomechatronics.com/wp-content/uploads/2018/05/Arduino-Range-Measurer-and-Digital-Spirit-Level-Project-Featured-768x432.jpg",
+		"difficulty": "Advanced"
+	},
+	{
+		"id": "3",
+		"title": "Arduino Robot Arm",
+		"desc": "This Arduino project is actually a robotic arm made out of 3D printed parts servo motors joints and controlled using an Arduino Nano. What’s even cooler we can control the robot arm wirelessly via a smartphone and a custom build Android application.",
+		"imageurl": "https://howtomechatronics.com/wp-content/uploads/2018/09/DIY-Arduino-Robot-Arm-with-Smartphone-Control-600x337.jpg",
+		"difficulty": "Advanced"
+	},
+	{
+		"id": "4",
+		"title": "Arduino Robot Car",
+		"desc": "Here we will build our own robot car from scratch. The car will be powered with Li-ion batteries and two 12V DC motors and controlled using the L298N driver and an analog Joystick.",
+		"imageurl": "https://howtomechatronics.com/wp-content/uploads/2017/11/Arduino-Robot-Car-Project.jpg",
+		"difficulty": "Beginner"
+	},
+	{
+		"id": "5",
+		"title": "DIY Arduino based RC Transmitter",
+		"desc": "Arduino based wireless radio controller. With this RC transmitter I can wirelessly control pretty much with a range up to 700m in open space. It features 14 channels (6 of which are analog and 8 digital inputs).",
+		"imageurl": "https://howtomechatronics.com/wp-content/uploads/2019/01/DIY-Arduino-based-RC-Transmitter-1024x576.jpg",
+		"difficulty": "Intermediate"
+	}
+]
